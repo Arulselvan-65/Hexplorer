@@ -17,7 +17,7 @@ const { Alchemy, Network, Utils } = require("alchemy-sdk");
 
 
 const setting = {
-  apiKey: "1dFCMwz6qW-UR-dDdjd5km0vL3aKzjUN",
+  apiKey: "REPLACE_THIS_WITH_YOUR_API_KEY",
   Network: Network.ETH_MAINNET,
 };
 
@@ -116,10 +116,10 @@ function Navigation() {
       async function getBlockNumber() {
 
         const response = await axios.get(
-          'https://api.etherscan.io/api?module=stats&action=ethprice&apikey=53YRRR2ZWJ1D14S2AU85A8M3IJXX9EKH48'
+          'https://api.etherscan.io/api?module=stats&action=ethprice&apikey=REPLACE_THIS_WITH_YOUR_API_KEY'
         );
         const res = await axios.get(
-          'https://api.etherscan.io/api?module=stats&action=nodecount&apikey=53YRRR2ZWJ1D14S2AU85A8M3IJXX9EKH48')
+          'https://api.etherscan.io/api?module=stats&action=nodecount&apikey=REPLACE_THIS_WITH_YOUR_API_KEY')
 
       let tenBlock = [];
       let tr = {};
