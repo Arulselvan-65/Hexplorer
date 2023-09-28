@@ -1,0 +1,79 @@
+.body{
+  background-color: rgb(33, 33, 33);
+}
+
+
+.block{
+  display: flex;
+  flex-direction: row;
+  height: 700px;
+  width: 90%;
+  padding: 20px; 
+  border-radius: 10px;
+  color: rgb(189, 189, 189);
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  background-color: rgb(22, 21, 21);
+}
+.block-info{
+  display: flex;
+  align-items:start;
+  flex-direction: row;
+  height: 40rem;
+  width: 40rem;
+}
+
+.block-label{
+  width: 10rem;
+  color: rgb(173, 173, 173);
+  font-size: 18px;
+}
+.block-values{
+  display: flex;
+  align-items:start;
+  flex-direction: column; 
+  width: 30rem;
+  color: white;
+  font-size: 18px;
+}
+
+.block-label1{
+  width: 10rem;
+  color: rgb(173, 173, 173);
+}
+.block-values1{
+  display: flex;
+  align-items:start;
+  flex-direction: column; 
+  width: 30rem;
+  color: white;
+}
+
+
+
+.btn1{
+  background: transparent;
+  border: none;
+  color: rgb(0, 110, 255);
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+
+.card1 {
+  max-height: 35rem; 
+  overflow-y: scroll;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+
+.card1::-webkit-scrollbar {
+  display: none; 
+}
+
+
+.hash-divider {
+  border: none;
+  border-top: 2px solid #ffffff;
+}
