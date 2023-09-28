@@ -11,7 +11,7 @@ const { Alchemy, Network } = require("alchemy-sdk");
 
 
 const setting = {
-  apiKey: "1dFCMwz6qW-UR-dDdjd5km0vL3aKzjUN",
+  apiKey: "REPLACE_THIS_WITH_YOUR_API_KEY",
   Network: Network.ETH_MAINNET,
 };
 
